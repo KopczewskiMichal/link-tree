@@ -34,6 +34,7 @@ body {
 .center .links ul li a:visited {
   color: black;
   margin: 0;
+  text-decoration: none;
 }
 .center .links ul li button {
   font-family: monospace;
@@ -44,12 +45,15 @@ body {
   height: 3rem;
   background-color: white;
   border: 2px solid black;
+  display: flex;
+  align-items: center;
 }
 .center .links ul li button span.icon {
-  float: left;
-  margin-left: 0;
-  position: relative;
-  left: 1rem;
+  justify-self: flex-start;
+  margin-left: 1rem;
+}
+.center .links ul li button span.websiteName {
+  margin: auto;
 }
 .center footer {
   display: none;

@@ -35,9 +35,9 @@ body {
         a:visited {
           color: $button_font_color;
           margin: 0;
+          text-decoration: none;
         }
         button {
-          // text-align: left;
           font-family: monospace;
           font-weight: bolder;
           font-size: 1.8rem;
@@ -46,17 +46,15 @@ body {
           height: 3rem;
           background-color: $button_background;
           border: 2px solid $button_font_color;
+          display: flex;
+          align-items: center;
           span.icon {
-            float: left;
-            margin-left: 0;
-            position: relative;
-            left: 1rem;
+            justify-self: flex-start;
+            margin-left: 1rem;
           }
-          // span.websiteName {
-          //   text-align: center;
-          //   width: calc(100% - 3rem);
-          //   // margin: auto;
-          // }
+          span.websiteName {
+            margin: auto;
+          }
         }
       }
     }
