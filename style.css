@@ -37,7 +37,7 @@ body {
 }
 .center .links ul li button {
   font-family: monospace;
-  font-weight: bolder;
+  font-weight: 700;
   font-size: 1.8rem;
   color: black;
   width: 100%;
